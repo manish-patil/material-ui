@@ -1,0 +1,28 @@
+{
+  "name": "material-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^3.4.0",
+    "axios": "^0.18.0",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "devDependencies": {
+    "@types/material-ui": "^0.21.5",
+    "@types/react": "^16.7.3",
+    "@types/react-dom": "^16.0.9",
+    "ts-loader": "^5.3.0",
+    "typescript": "^3.1.6",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
